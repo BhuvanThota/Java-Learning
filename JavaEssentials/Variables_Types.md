@@ -30,8 +30,8 @@ _______
 - Every variable has a type.
 
 ##### What is static typing?
-- The type of variable is chosen only when 
-we write the code not during compilation
+- The type of variable is chosen at compile time 
+we write the code not during run time.
 
 ```java
 <type> varName = <value>
