@@ -1,7 +1,9 @@
 # Java-Learning
 
+- All the Java Essentials covered with a simple and basic examples 
+- Java Essentials required by a complete beginner to understand why and what of the java language
 
-## Topics Covered
+## Topics Covered  
 
 1. Java Basics
 2. JVM, JRE, JDK
