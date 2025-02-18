@@ -4,10 +4,14 @@ public class Car {
     public static void main(String[] args) {
         // Constructor is used based on how we call this class.
         Vehicle c1 = new Vehicle();
-        System.out.println(c1);
+        Vehicle c5 = new Vehicle();
+        System.out.println(c1.toString());
+        System.out.println(c5.toString());
+        System.out.println(c1.equals(c5));
+        System.out.println(c1 == c5);
 
-        Vehicle c2 = new Vehicle(5);
-        System.out.println(c2.seats);
+        Vehicle c3 = new Vehicle(5);
+        System.out.println(c3.seats);
     }
 }
 
@@ -35,5 +39,10 @@ class Vehicle {
     boolean canSeat(int seats) {
         return this.seats >= seats;
 
+    }
+
+    @Override
+    public String toString(){
+        return ("This is a Car.");
     }
 }
